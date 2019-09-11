@@ -1,7 +1,61 @@
 // Header, footer, navigation, section 
+body {
+  background: url(../img/bg.png) top center no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+header {
+  padding: 120px 0;
+  text-align: center;
+}
 h1 {
-  color:green;
+  font-size: 95px;
+  line-height: 108px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 60px;
+}
+h2 {
+  font-size: 36px;
+  line-height: 45px;
+  margin-bottom: 40px;
+  font-weight: 300;
 }
 p {
-  color: orange;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+a {
+  background-color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 12px 32px;
+  border: 1px solid #0039A8;
+  color: #0039A8;
+  text-transform: uppercase;
+  font-weight: 700;
+  &:hover {
+    text-decoration: none;
+  }
+}
+section.description {
+  padding: 60px 0;
+}
+.image-cta-content {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  a {
+    margin: 0;
+  }
+  div:last-of-type {
+    margin-bottom: 60px;
+  }
+}
+img {
+  width: 100%;
 }
